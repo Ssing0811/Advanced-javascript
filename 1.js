@@ -117,53 +117,53 @@
 // }
 // logRecursion(3);
 
-function getrecursion(nr){
-    console.log(nr);
-    if(nr>0){
-        getrecursion(--nr);
-    }
-}
-getrecursion(3);
+// function getrecursion(nr){
+//     console.log(nr);
+//     if(nr>0){
+//         getrecursion(--nr);
+//     }
+// }
+// getrecursion(3);
 
-function getrecursion(nr){
+// function getrecursion(nr){
      
-    if(nr>0){
-        getrecursion(--nr);
-    }
-    console.log(nr);
-}
-getrecursion(3);
+//     if(nr>0){
+//         getrecursion(--nr);
+//     }
+//     console.log(nr);
+// }
+// getrecursion(3);
 
-//performance of recursion is slower than the performance than that of iteration using loops
+// //performance of recursion is slower than the performance than that of iteration using loops
 
-//Nested functions
-function doOuterfunctionStuff(nr){
-    console.log("outer function");
-    doInnerfunctionStuff(nr);
-    function doInnerfunctionStuff(x){
-        console.log(x+7);
-        console.log("I can access outer variables:",nr);
-    }
-}
-doOuterfunctionStuff(2);
+// //Nested functions
+// function doOuterfunctionStuff(nr){
+//     console.log("outer function");
+//     doInnerfunctionStuff(nr);
+//     function doInnerfunctionStuff(x){
+//         console.log(x+7);
+//         console.log("I can access outer variables:",nr);
+//     }
+// }
+// doOuterfunctionStuff(2);
 
-//Anonymous functions
-let functionVariable = function(){
-    console.log("not so scerete though.");
-};
-functionVariable();
+// //Anonymous functions
+// let functionVariable = function(){
+//     console.log("not so scerete though.");
+// };
+// functionVariable();
 
-//Function callbacks 
-function doFlexibleStuff(executeStuff){
-    executeStuff();
-    console.log("Inside doFlexibleStuffFunctions.");
-}
-doFlexibleStuff(functionVariable);
+// //Function callbacks 
+// function doFlexibleStuff(executeStuff){
+//     executeStuff();
+//     console.log("Inside doFlexibleStuffFunctions.");
+// }
+// doFlexibleStuff(functionVariable);
 
-let youGotThis = function(){
-    console.log("you are doing really well,keep coading!");
-};
-setTimeout(youGotThis,4000);
-setInterval(youGotThis,1000);
+// let youGotThis = function(){
+//     console.log("you are doing really well,keep coading!");
+// };
+// setTimeout(youGotThis,4000);
+// setInterval(youGotThis,1000);
 
 
