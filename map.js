@@ -115,3 +115,57 @@
 //     age:50
 //     };
 //let{lastname:name}=person;
+
+// 29 April 2025;
+// let name = "Saurabh Maurya";
+// let [a1,a2,a3,a4,a5] = name;
+// console.log(a4);
+
+// let names = ["hello","how","welcome","Greeting"];
+// let[g1,,,g2] = names;
+// console.log(g1,g2);
+
+// let{[0]:names1,[1]:names2 }=names;
+
+//THE REST PROPERTY
+// const numbers=[10,20,30,40,50,60];
+// const[a,b,...rest]=numbers;
+// console.log([a,b,...rest]);
+
+//SWAPPNG
+// let firstname="john";
+// let lastname="doe";
+// //destructuring
+// [firstname,lastname]=[lastname,firstname];
+// console.log([firstname,lastname]);
+
+
+// let x=5;
+// let z=x**2;
+// console.log(z);
+
+// let x=5;
+// let z=Math.pow(x,2);
+// console.log(z);
+
+//Exponential Assignment 
+// let x=5;
+// x**=2;
+// console.log(x);
+
+// const fruits=["banana","oranges","apples","mango"];
+// console.log(fruits.includes("Mango"));
+
+// const fruits=["banana","oranges","apples","mango"];
+// console.log(fruits.includes("banana",3));
+
+//The include method is case sensetive
+
+//Trailing Comma
+// const arr=["one","two","three",,];
+// console.log(arr.length);
+
+// const sparseArray=[1,,,4,5,,];
+// console.log(arr.length);
+
+ 
